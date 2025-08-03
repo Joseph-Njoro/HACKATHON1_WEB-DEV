@@ -251,7 +251,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: var(--space-2xl);
   align-items: center;
-  width: 100%;
+  width: 95%;
 }
 
 .hero-name {
@@ -274,7 +274,6 @@ body {
   max-width: 500px;
 }
 
-/* Glitch Effect */
 .glitch {
   position: relative;
   display: inline-block;
@@ -716,7 +715,6 @@ input:focus {
   }
 }
 
-/* Reduced Motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -729,7 +727,6 @@ input:focus {
   }
 }
 
-/* High Contrast Mode */
 @media (prefers-contrast: high) {
   :root {
     --color-neon: #00ff00;
@@ -738,17 +735,16 @@ input:focus {
   }
 }
 
-/* Print Styles */
 @media print {
   .nav, .theme-toggle, .theme-label, .scroll-indicator {
     display: none;
   }
-  
+
   .section {
     min-height: auto;
     page-break-inside: avoid;
   }
-  
+
   .project-card {
     break-inside: avoid;
   }
