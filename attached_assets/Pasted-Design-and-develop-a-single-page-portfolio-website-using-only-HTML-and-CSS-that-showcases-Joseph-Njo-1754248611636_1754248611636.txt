@@ -1,0 +1,115 @@
+Design and develop a single-page portfolio website using only HTML and CSS that showcases Joseph Njoroge’s personal brand, creativity, and technical prowess.
+
+Design Theme:
+
+High-Tech Minimalism + Neon Glitch Aesthetic
+
+Dark mode base: #0d1117
+
+Neon accent: #39ff14
+
+Custom fonts (via Google Fonts)
+
+CSS variables for theming
+
+Animated, layered, glitchy hero text
+
+Layout Requirements:
+
+Use full-screen vertical sections (100vh each):
+
+Hero
+
+About
+
+Projects
+
+Contact
+
+Use CSS Grid for overall layout
+
+Implement scroll snap:
+
+scroll-snap-type: y mandatory;
+scroll-snap-align: start;
+
+Interactive Features (CSS Only):
+
+Hover on project cards triggers 3D tilt or flip:
+
+.project:hover {
+  transform: rotateY(10deg);
+  box-shadow: 0 10px 30px rgba(57, 255, 20, 0.3);
+}
+
+Glitch effect on hero name using multiple layers and keyframes
+
+Dark/light mode toggle using hidden checkbox input and CSS sibling selectors (no JavaScript)
+
+Responsive Design:
+
+Mobile-first with breakpoints at:
+
+480px
+
+768px
+
+Use clamp() for fluid, scalable typography
+
+Accessibility:
+
+Use semantic HTML5 elements:
+
+<header>, <nav>, <main>, <section>, <footer>
+
+Maintain high contrast
+
+Add keyboard navigable focus styles
+
+Add alt text to images/icons and aria-labels where needed
+
+Deliverables:
+
+index.html
+
+styles.css
+
+/assets/ folder with images, icons, fonts
+
+Works offline (open via browser or Live Server)
+
+Bonus: inline critical CSS and keep total gzip file size under 100KB
+
+Evaluation Criteria:
+
+Category
+
+Description
+
+Creativity
+
+Unique visual identity and thematic consistency
+
+Technical Skill
+
+Advanced CSS usage (grid, animation, transitions, custom properties)
+
+Responsiveness
+
+Mobile-first, scalable, fluid layout
+
+Accessibility
+
+Semantic, keyboard accessible, and high-contrast
+
+Performance
+
+Loads fast, smooth scroll, optimized CSS
+
+Polish
+
+Attention to spacing, color, typography, and animation flow
+
+Optional Flavor Text:
+
+"Joseph Njoroge’s portfolio pulses with neon energy and glitchy finesse. This isn’t just a resume on the web — it’s a transmission from the future. Every hover, every section, every animation whispers: ‘This is not normal HTML and CSS. This is style, weaponized.’"

@@ -1,0 +1,89 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="200" fill="#0d1117"/>
+  
+  <!-- Application Window -->
+  <rect x="20" y="20" width="360" height="160" rx="8" fill="#30363d" stroke="#39ff14" stroke-width="1"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="360" height="40" rx="8" fill="#21262d"/>
+  <text x="30" y="42" font-family="sans-serif" font-size="14" fill="#39ff14" font-weight="bold">TaskFlow</text>
+  
+  <!-- User Avatar -->
+  <circle cx="350" cy="40" r="12" fill="#39ff14" opacity="0.3"/>
+  <text x="346" y="44" font-family="sans-serif" font-size="8" fill="#39ff14">JN</text>
+  
+  <!-- Sidebar -->
+  <rect x="20" y="60" width="80" height="120" fill="#0d1117"/>
+  <text x="25" y="75" font-family="sans-serif" font-size="9" fill="#8b949e">BOARDS</text>
+  
+  <!-- Board Items -->
+  <rect x="25" y="85" width="70" height="18" fill="#21262d" rx="4"/>
+  <text x="30" y="96" font-family="sans-serif" font-size="8" fill="#39ff14">• Development</text>
+  
+  <rect x="25" y="108" width="70" height="18" fill="#39ff14" opacity="0.2" rx="4"/>
+  <text x="30" y="119" font-family="sans-serif" font-size="8" fill="#39ff14">• Design</text>
+  
+  <rect x="25" y="131" width="70" height="18" fill="#21262d" rx="4"/>
+  <text x="30" y="142" font-family="sans-serif" font-size="8" fill="#8b949e">• Marketing</text>
+  
+  <!-- Main Content Area -->
+  <rect x="100" y="60" width="280" height="120" fill="#0d1117"/>
+  
+  <!-- Kanban Columns -->
+  <rect x="110" y="70" width="80" height="100" fill="#21262d" rx="6"/>
+  <text x="115" y="82" font-family="sans-serif" font-size="9" fill="#39ff14" font-weight="bold">To Do</text>
+  <rect x="116" y="84" width="20" height="8" fill="#39ff14" opacity="0.3" rx="4"/>
+  <text x="118" y="90" font-family="sans-serif" font-size="6" fill="#39ff14">3</text>
+  
+  <rect x="200" y="70" width="80" height="100" fill="#21262d" rx="6"/>
+  <text x="205" y="82" font-family="sans-serif" font-size="9" fill="#39ff14" font-weight="bold">In Progress</text>
+  <rect x="264" y="84" width="12" height="8" fill="#39ff14" opacity="0.3" rx="4"/>
+  <text x="266" y="90" font-family="sans-serif" font-size="6" fill="#39ff14">2</text>
+  
+  <rect x="290" y="70" width="80" height="100" fill="#21262d" rx="6"/>
+  <text x="295" y="82" font-family="sans-serif" font-size="9" fill="#39ff14" font-weight="bold">Done</text>
+  <rect x="342" y="84" width="20" height="8" fill="#39ff14" opacity="0.3" rx="4"/>
+  <text x="344" y="90" font-family="sans-serif" font-size="6" fill="#39ff14">5</text>
+  
+  <!-- Task Cards -->
+  <!-- To Do Column -->
+  <rect x="115" y="95" width="70" height="25" fill="#30363d" stroke="#39ff14" stroke-width="1" rx="4"/>
+  <text x="118" y="104" font-family="sans-serif" font-size="7" fill="#8b949e">Design new UI</text>
+  <text x="118" y="112" font-family="sans-serif" font-size="6" fill="#39ff14">High Priority</text>
+  <circle cx="175" cy="107" r="8" fill="#39ff14" opacity="0.2"/>
+  <text x="172" y="110" font-family="sans-serif" font-size="6" fill="#39ff14">JD</text>
+  
+  <rect x="115" y="125" width="70" height="25" fill="#30363d" stroke="#8b949e" stroke-width="1" rx="4"/>
+  <text x="118" y="134" font-family="sans-serif" font-size="7" fill="#8b949e">Code review</text>
+  <text x="118" y="142" font-family="sans-serif" font-size="6" fill="#8b949e">Medium</text>
+  
+  <!-- In Progress Column -->
+  <rect x="205" y="95" width="70" height="35" fill="#30363d" stroke="#39ff14" stroke-width="1" rx="4"/>
+  <text x="208" y="104" font-family="sans-serif" font-size="7" fill="#8b949e">API Integration</text>
+  <text x="208" y="112" font-family="sans-serif" font-size="6" fill="#39ff14">In Progress</text>
+  <rect x="208" y="116" width="35" height="4" fill="#39ff14" opacity="0.3" rx="2"/>
+  <rect x="208" y="116" width="20" height="4" fill="#39ff14" rx="2"/>
+  <text x="208" y="127" font-family="sans-serif" font-size="6" fill="#8b949e">60% Complete</text>
+  
+  <!-- Done Column -->
+  <rect x="295" y="95" width="70" height="25" fill="#30363d" stroke="#39ff14" stroke-width="1" rx="4"/>
+  <text x="298" y="104" font-family="sans-serif" font-size="7" fill="#8b949e">Database Setup</text>
+  <text x="298" y="112" font-family="sans-serif" font-size="6" fill="#39ff14">✓ Completed</text>
+  
+  <rect x="295" y="125" width="70" height="25" fill="#30363d" stroke="#39ff14" stroke-width="1" rx="4"/>
+  <text x="298" y="134" font-family="sans-serif" font-size="7" fill="#8b949e">User Auth</text>
+  <text x="298" y="142" font-family="sans-serif" font-size="6" fill="#39ff14">✓ Completed</text>
+  
+  <!-- Drag Indicator -->
+  <path d="M 185 108 Q 195 103 205 108" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.7" stroke-dasharray="3,3"/>
+  
+  <!-- Notification -->
+  <rect x="320" y="25" width="50" height="15" fill="#39ff14" opacity="0.2" rx="7"/>
+  <text x="325" y="34" font-family="sans-serif" font-size="7" fill="#39ff14">3 updates</text>
+  
+  <!-- Glitch Effects -->
+  <rect x="160" y="35" width="25" height="2" fill="#ff00ff" opacity="0.8"/>
+  <rect x="95" y="110" width="12" height="2" fill="#ff00ff" opacity="0.6"/>
+  <rect x="280" y="150" width="18" height="2" fill="#ff00ff" opacity="0.7"/>
+</svg>

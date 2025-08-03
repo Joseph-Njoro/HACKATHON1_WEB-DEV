@@ -1,0 +1,42 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="140" fill="#0d1117" stroke="#39ff14" stroke-width="3"/>
+  
+  <!-- Face -->
+  <circle cx="150" cy="130" r="50" fill="#39ff14" opacity="0.1"/>
+  
+  <!-- Head -->
+  <ellipse cx="150" cy="120" rx="35" ry="40" fill="#39ff14" opacity="0.8"/>
+  
+  <!-- Eyes -->
+  <circle cx="140" cy="115" r="3" fill="#0d1117"/>
+  <circle cx="160" cy="115" r="3" fill="#0d1117"/>
+  
+  <!-- Mouth -->
+  <path d="M 140 125 Q 150 135 160 125" stroke="#0d1117" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <rect x="125" y="160" width="50" height="80" rx="25" fill="#39ff14" opacity="0.6"/>
+  
+  <!-- Arms -->
+  <ellipse cx="110" cy="180" rx="15" ry="30" fill="#39ff14" opacity="0.5"/>
+  <ellipse cx="190" cy="180" rx="15" ry="30" fill="#39ff14" opacity="0.5"/>
+  
+  <!-- Tech Elements -->
+  <rect x="60" y="60" width="20" height="3" fill="#39ff14" opacity="0.7"/>
+  <rect x="60" y="70" width="15" height="3" fill="#39ff14" opacity="0.5"/>
+  <rect x="60" y="80" width="18" height="3" fill="#39ff14" opacity="0.6"/>
+  
+  <rect x="220" y="200" width="20" height="3" fill="#39ff14" opacity="0.7"/>
+  <rect x="215" y="210" width="15" height="3" fill="#39ff14" opacity="0.5"/>
+  <rect x="218" y="220" width="18" height="3" fill="#39ff14" opacity="0.6"/>
+  
+  <!-- Circuit Lines -->
+  <path d="M 50 150 Q 100 130 150 150 Q 200 170 250 150" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 70 250 Q 120 230 150 250 Q 180 270 230 250" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Glitch Effects -->
+  <rect x="145" y="50" width="10" height="2" fill="#ff00ff" opacity="0.8"/>
+  <rect x="90" y="180" width="8" height="2" fill="#ff00ff" opacity="0.6"/>
+  <rect x="200" y="120" width="12" height="2" fill="#ff00ff" opacity="0.7"/>
+</svg>

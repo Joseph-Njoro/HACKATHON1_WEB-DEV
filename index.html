@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Njoroge - Full Stack Developer</title>
+    <meta name="description" content="Joseph Njoroge's portfolio - Full Stack Developer specializing in modern web technologies and innovative solutions.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle -->
+    <input type="checkbox" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+    <label for="theme-toggle" class="theme-label">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-icon">☀️</span>
+    </label>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Go to top">JN</a>
+            <ul class="nav-links">
+                <li><a href="#hero" aria-label="Go to hero section">Home</a></li>
+                <li><a href="#about" aria-label="Go to about section">About</a></li>
+                <li><a href="#projects" aria-label="Go to projects section">Projects</a></li>
+                <li><a href="#contact" aria-label="Go to contact section">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section hero" aria-label="Hero section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">
+                        <span class="glitch" data-text="Joseph">Joseph</span>
+                        <span class="glitch" data-text="Njoroge">Njoroge</span>
+                    </h1>
+                    <p class="hero-subtitle">Full Stack Developer</p>
+                    <p class="hero-description">Crafting digital experiences with precision and creativity</p>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-container">
+                        <img src="assets/profile.svg" alt="Joseph Njoroge profile illustration" class="profile-image">
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator" aria-hidden="true">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about" aria-label="About section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate Full Stack Developer with expertise in modern web technologies. I specialize in creating scalable, performant applications that deliver exceptional user experiences.</p>
+                        <p>My journey in technology spans across frontend frameworks, backend architectures, and cloud solutions. I believe in writing clean, maintainable code and staying current with emerging technologies.</p>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3>Frontend</h3>
+                                <ul>
+                                    <li>React & Next.js</li>
+                                    <li>TypeScript</li>
+                                    <li>CSS3 & SASS</li>
+                                    <li>Responsive Design</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Backend</h3>
+                                <ul>
+                                    <li>Node.js & Express</li>
+                                    <li>Python & Django</li>
+                                    <li>PostgreSQL & MongoDB</li>
+                                    <li>RESTful APIs</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Tools & Cloud</h3>
+                                <ul>
+                                    <li>AWS & Docker</li>
+                                    <li>Git & GitHub</li>
+                                    <li>CI/CD Pipelines</li>
+                                    <li>Agile Methodologies</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects" aria-label="Projects section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project-1.svg" alt="E-commerce Platform project screenshot" />
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View live demo">Live Demo</a>
+                                    <a href="#" class="project-link" aria-label="View source code">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project-2.svg" alt="Task Management App project screenshot" />
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View live demo">Live Demo</a>
+                                    <a href="#" class="project-link" aria-label="View source code">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/project-3.svg" alt="Weather Analytics Dashboard project screenshot" />
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="View live demo">Live Demo</a>
+                                    <a href="#" class="project-link" aria-label="View source code">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather Analytics Dashboard</h3>
+                            <p>An interactive weather dashboard with data visualization, historical trends, and predictive analytics using machine learning algorithms.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact" aria-label="Contact section">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:24lyf@proton.me" class="contact-link" aria-label="Send email">
+                            <img src="assets/email-icon.svg" alt="" aria-hidden="true">
+                            <span>24lyf@proton.me</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/justjoseph7/" class="contact-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/linkedin-icon.svg" alt="" aria-hidden="true">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Joseph-Njoro" class="contact-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/github-icon.svg" alt="" aria-hidden="true">
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 Joseph Njoroge. Crafted with precision and passion.</p>
+        </div>
+    </footer>
+</body>
+</html>
